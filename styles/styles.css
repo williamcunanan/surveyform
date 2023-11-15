@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-image: 
+        linear-gradient(rgba(40, 121, 175, 0.5), rgba(90, 145, 177, 0.5), rgba(126, 251, 255, 0.5)),
+        url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e6a79513-1097-451f-8d09-1c056b94841f/dfp5dg0-f7c86f09-5847-4190-adeb-cc5f90d5e407.png/v1/fill/w_1192,h_670,q_70,strp/newjeans_wallpaper_concept_by_sosweet12_dfp5dg0-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZTZhNzk1MTMtMTA5Ny00NTFmLThkMDktMWMwNTZiOTQ4NDFmXC9kZnA1ZGcwLWY3Yzg2ZjA5LTU4NDctNDE5MC1hZGViLWNjNWY5MGQ1ZTQwNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.v4yDkLRhK-HbeloTHly-SZvV9SxisqUJsIKdUAJs0rw");
+        background-size: cover;
+        background-position: center;
+}
+h1 {
+    color:white;
+    text-shadow: 2px 4px 4px rgba(29, 84, 185, 0.6)
+}
+p {
+    color:white;
+}
+form {
+    color:white;
+    margin: auto;
+    max-width:500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(#2386a7, #20b9b9,#2386a7 );
+}
+.form-input {
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+input {
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+
+}
+select {
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+textarea {
+    height: 150px;
+    width: 500px;
+}

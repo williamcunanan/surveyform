@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <body style="font-family: sans-serif">
+<h1 id="title"> NewJeans Survey Form</h1>
+<b><p id="description">This is for NewJeans fans! If you like NewJeans answer this!</p></b>>
+<form id="survey-form">
+	<div class="form-input">
+		<label id="name-label">
+			<b>Name</b>
+			<input  placeholder="name" id="name" type="text" required>
+		</label>
+	</div>
+    <div class="form-input"> 
+		<label id="email-label">
+			<b>Email</b>
+			<input placeholder="email" id="email" type="email" required>
+		</label>
+	</div> 
+    <div class="form-input">
+		<label id="number-label">
+			<b>Age</b>
+			<input placeholder="number" id="number" min="10" max="100" type="number" required>
+		</label>
+	</div>
+    <hr>
+    <div class="form-input">
+		<label id="age-label">
+        <b>Who is your favorite NewJeans member!</b>		
+    </label>
+        <select id="dropdown">
+         <option>Hanni</option>
+         <option>Danielle</option>     
+         <option>Haerin</option> 
+         <option>Minji</option> 
+         <option>Hyein</option> 
+         <option></option>     
+        </select>
+	</div>
+    <hr>
+    <div>
+        <div class="form-input">
+            <b><label>Have you been in a NewJeans concert/performance live?</label></b>
+            <div>
+                <label><input type="radio" name="concert" value="yes"/>Yes!!</label>
+            </div>
+            <div>
+                <label><input type="radio" name="concert" value="no"/>Not yet *sad face*</label>
+            </div>
+                <hr>
+        </div>
+    <div class="form-input">     
+        <div >
+            <b><label>What is your NewJeans release faves!</label></b>
+        </div>
+        <div >
+            <label><input type="checkbox" name="song" value="attention">Attention</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="hypeboy">Hype Boy</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="cookie">Cookie</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="hurt">Hurt</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="ditto">Ditto</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="omg">OMG</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="tellme">Tell Me</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="zero">Zero</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="bwya">Be Who You Are</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="supershy">Super Shy</label>
+        </div> 
+        <div>
+            <label><input type="checkbox" name="song" value="newjeanssong">New Jeans</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="eta">ETA</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="coolwithyou">Cool With You</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="getup">Get Up</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="asap">ASAP</label>
+        </div>
+    </div>    
+<hr>
+    <div class="form-input">
+        <b><label>Additional Comments about NewJeans? Write here!</label></b>
+     </div>
+     <textarea placeholder="Enter your comment here..." type="text"></textarea>
+     <div>
+        <button type="submit" id="submit">
+            Submit
+    </button>
+     </div>
+
+</form>
+</body>
+</html>
